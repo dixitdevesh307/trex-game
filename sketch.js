@@ -157,8 +157,9 @@ function draw() {
      obstaclesGroup.setVelocityXEach(0);
      cloudsGroup.setVelocityXEach(0);   
      
-     if( touches.restart || mousePressedOver(restart) ) {
+     if( touches.restart<0|| mousePressedOver(restart) ) {
       reset();
+      touches[]
     }
 
    }
@@ -235,3 +236,4 @@ function spawnClouds() {
   }
 }
 
+//Hello brother
